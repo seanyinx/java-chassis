@@ -62,7 +62,7 @@ paths:
 definitions:
   Error:
     type: object
-    x-java-class: com.huawei.paas.cse.core.exception.CommonExceptionData
+    x-java-class: CommonExceptionData
     properties:
       message:
         type: string

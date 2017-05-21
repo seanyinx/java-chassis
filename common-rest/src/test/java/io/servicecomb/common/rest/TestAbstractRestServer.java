@@ -29,10 +29,10 @@ import org.junit.Test;
 import org.mockito.Mockito;
 
 import io.servicecomb.common.rest.codec.RestServerRequestInternal;
-import com.huawei.paas.cse.core.Const;
-import com.huawei.paas.cse.core.Invocation;
-import com.huawei.paas.cse.core.Response;
-import com.huawei.paas.cse.core.Transport;
+import io.servicecomb.core.Const;
+import io.servicecomb.core.Invocation;
+import io.servicecomb.core.Response;
+import io.servicecomb.core.Transport;
 import com.huawei.paas.foundation.common.utils.JsonUtils;
 
 /**

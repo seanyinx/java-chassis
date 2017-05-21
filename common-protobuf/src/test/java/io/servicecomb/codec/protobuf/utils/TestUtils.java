@@ -24,7 +24,7 @@ import org.junit.Test;
 import org.mockito.Mockito;
 
 import io.servicecomb.codec.protobuf.definition.ProtobufManager;
-import com.huawei.paas.cse.core.definition.OperationMeta;
+import io.servicecomb.core.definition.OperationMeta;
 
 public class TestUtils {
 

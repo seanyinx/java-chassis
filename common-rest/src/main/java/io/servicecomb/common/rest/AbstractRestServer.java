@@ -32,15 +32,15 @@ import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.huawei.paas.cse.core.Const;
-import com.huawei.paas.cse.core.CseContext;
-import com.huawei.paas.cse.core.Invocation;
-import com.huawei.paas.cse.core.Response;
-import com.huawei.paas.cse.core.Transport;
-import com.huawei.paas.cse.core.definition.MicroserviceMeta;
-import com.huawei.paas.cse.core.definition.OperationMeta;
-import com.huawei.paas.cse.core.exception.InvocationException;
-import com.huawei.paas.cse.core.invocation.InvocationFactory;
+import io.servicecomb.core.Const;
+import io.servicecomb.core.CseContext;
+import io.servicecomb.core.Invocation;
+import io.servicecomb.core.Response;
+import io.servicecomb.core.Transport;
+import io.servicecomb.core.definition.MicroserviceMeta;
+import io.servicecomb.core.definition.OperationMeta;
+import io.servicecomb.core.exception.InvocationException;
+import io.servicecomb.core.invocation.InvocationFactory;
 import com.huawei.paas.cse.serviceregistry.RegistryUtils;
 import com.huawei.paas.foundation.common.utils.JsonUtils;
 

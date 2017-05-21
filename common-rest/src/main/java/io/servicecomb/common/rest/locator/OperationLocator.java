@@ -26,7 +26,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import io.servicecomb.common.rest.definition.RestOperationMeta;
-import com.huawei.paas.cse.core.exception.InvocationException;
+import io.servicecomb.core.exception.InvocationException;
 
 /**
  * 从path和http method定位到具体的operation

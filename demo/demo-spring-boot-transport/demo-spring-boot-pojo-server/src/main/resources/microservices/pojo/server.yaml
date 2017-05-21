@@ -4,7 +4,7 @@ swagger: '2.0'
 info:
   title: cse test
   version: 1.0.0
-  x-java-interface: com.huawei.paas.cse.demo.server.Test
+  x-java-interface: Test
   
 # the domain of the service
 #host: api.uber.com

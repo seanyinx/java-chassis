@@ -18,7 +18,7 @@ package io.servicecomb.cse.demo.springmvc.client;
 import io.servicecomb.cse.demo.server.User;
 import org.springframework.http.ResponseEntity;
 
-import com.huawei.paas.cse.core.Response;
+import io.servicecomb.core.Response;
 
 /**
  * <一句话功能简述>

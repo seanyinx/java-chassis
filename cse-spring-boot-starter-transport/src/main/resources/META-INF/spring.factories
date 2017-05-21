@@ -1,2 +1,2 @@
-org.springframework.boot.SpringApplicationRunListener=CseSpringApplicationRunListener
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=CseEmbeddedServlet
+org.springframework.boot.SpringApplicationRunListener=io.servicecomb.springboot.starter.transport.CseSpringApplicationRunListener
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=io.servicecomb.springboot.starter.transport.CseEmbeddedServlet

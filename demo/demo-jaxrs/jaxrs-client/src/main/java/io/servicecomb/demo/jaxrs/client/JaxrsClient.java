@@ -33,7 +33,7 @@ import io.servicecomb.cse.demo.CodeFirstRestTemplate;
 import io.servicecomb.cse.demo.DemoConst;
 import io.servicecomb.cse.demo.TestMgr;
 import io.servicecomb.cse.demo.compute.Person;
-import com.huawei.paas.cse.provider.springmvc.reference.RestTemplateBuilder;
+import io.servicecomb.provider.springmvc.reference.RestTemplateBuilder;
 import io.servicecomb.foundation.common.utils.BeanUtils;
 import io.servicecomb.foundation.common.utils.Log4jUtils;
 

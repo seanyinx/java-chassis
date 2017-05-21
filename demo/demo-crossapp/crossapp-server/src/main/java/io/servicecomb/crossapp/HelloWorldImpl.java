@@ -16,7 +16,7 @@
 
 package io.servicecomb.crossapp;
 
-import com.huawei.paas.cse.provider.pojo.RpcSchema;
+import io.servicecomb.provider.pojo.RpcSchema;
 
 @RpcSchema(schemaId = "helloworld")
 public class HelloWorldImpl implements HelloWorld {

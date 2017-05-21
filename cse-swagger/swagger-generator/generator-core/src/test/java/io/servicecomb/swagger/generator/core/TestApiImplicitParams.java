@@ -48,7 +48,7 @@ public class TestApiImplicitParams {
                 value = {@ApiImplicitParam(
                         paramType = "body",
                         name = "body",
-                        dataType = "User")})
+                        dataType = "io.servicecomb.swagger.generator.core.schema.User")})
         void testBody();
     }
 

@@ -1,7 +1,7 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-RibbonCseAutoConfiguration
+io.servicecomb.springboot.starter.discovery.RibbonCseAutoConfiguration
 
 # Discovery Client Configuration
 org.springframework.cloud.client.discovery.EnableDiscoveryClient=\
-CseDiscoveryClientConfiguration
-org.springframework.boot.SpringApplicationRunListener=CseSpringApplicationRunListener
+io.servicecomb.springboot.starter.discovery.CseDiscoveryClientConfiguration
+org.springframework.boot.SpringApplicationRunListener=io.servicecomb.springboot.starter.discovery.CseSpringApplicationRunListener

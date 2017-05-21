@@ -27,10 +27,10 @@ import org.springframework.http.HttpMethod;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.client.RestTemplate;
 
-import com.huawei.paas.cse.core.CseContext;
+import io.servicecomb.core.CseContext;
 import io.servicecomb.cse.demo.DemoConst;
 import io.servicecomb.cse.demo.controller.Person;
-import com.huawei.paas.cse.provider.springmvc.reference.RestTemplateBuilder;
+import io.servicecomb.provider.springmvc.reference.RestTemplateBuilder;
 import io.servicecomb.foundation.common.utils.BeanUtils;
 import io.servicecomb.foundation.common.utils.Log4jUtils;
 

@@ -2,7 +2,7 @@ swagger: '2.0'
 info:
   title: hello service
   version: 1.0.0
-  x-java-interface: HelloWorld
+  x-java-interface: io.servicecomb.demo.crossapp.HelloWorld
 
 basePath: /helloworld
 produces:

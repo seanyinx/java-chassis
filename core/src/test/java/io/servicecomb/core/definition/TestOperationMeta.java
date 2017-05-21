@@ -50,9 +50,9 @@ public class TestOperationMeta {
         Assert.assertEquals("POST", operationMeta.getHttpMethod());
         Assert.assertEquals("/test", operationMeta.getOperationPath());
         Assert.assertEquals(schemaMeta, operationMeta.getSchemaMeta());
-        Assert.assertEquals("TestOperationMeta$Impl.test",
+        Assert.assertEquals("io.servicecomb.core.definition.TestOperationMeta$Impl.test",
                 operationMeta.getSchemaQualifiedName());
-        Assert.assertEquals("app:test.TestOperationMeta$Impl.test",
+        Assert.assertEquals("app:test.io.servicecomb.core.definition.TestOperationMeta$Impl.test",
                 operationMeta.getMicroserviceQualifiedName());
         Assert.assertEquals("app:test", operationMeta.getMicroserviceName());
         Assert.assertEquals("test", operationMeta.getOperationId());

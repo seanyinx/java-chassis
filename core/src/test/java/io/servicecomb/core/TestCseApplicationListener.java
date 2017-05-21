@@ -28,7 +28,7 @@ import org.springframework.context.event.ContextRefreshedEvent;
 import org.springframework.context.support.AbstractApplicationContext;
 
 import io.servicecomb.core.provider.consumer.ConsumerProviderManager;
-import com.huawei.paas.cse.serviceregistry.RegistryUtils;
+import io.servicecomb.serviceregistry.RegistryUtils;
 import io.servicecomb.foundation.common.utils.ReflectUtils;
 
 import mockit.Expectations;

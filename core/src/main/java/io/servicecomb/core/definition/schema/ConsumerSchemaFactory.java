@@ -38,9 +38,9 @@ import org.springframework.util.StringUtils;
 
 import io.servicecomb.core.definition.OperationMeta;
 import io.servicecomb.core.provider.consumer.ConsumerOperationMeta;
-import com.huawei.paas.cse.serviceregistry.api.registry.Microservice;
-import com.huawei.paas.cse.serviceregistry.client.RegistryClientFactory;
-import com.huawei.paas.cse.serviceregistry.client.ServiceRegistryClient;
+import io.servicecomb.serviceregistry.api.registry.Microservice;
+import io.servicecomb.serviceregistry.client.RegistryClientFactory;
+import io.servicecomb.serviceregistry.client.ServiceRegistryClient;
 import io.servicecomb.swagger.generator.core.OperationGenerator;
 import io.servicecomb.swagger.generator.core.SwaggerGenerator;
 import io.servicecomb.swagger.generator.core.utils.ClassUtils;

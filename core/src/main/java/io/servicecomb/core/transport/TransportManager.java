@@ -29,7 +29,7 @@ import org.springframework.stereotype.Component;
 import io.servicecomb.core.Endpoint;
 import io.servicecomb.core.Transport;
 import io.servicecomb.core.endpoint.AbstractEndpointsCache;
-import com.huawei.paas.cse.serviceregistry.RegistryUtils;
+import io.servicecomb.serviceregistry.RegistryUtils;
 
 /**
  * <一句话功能简述>

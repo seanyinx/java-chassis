@@ -23,7 +23,7 @@ import io.servicecomb.core.exception.InvocationException;
 import io.servicecomb.cse.demo.server.Test;
 import io.servicecomb.cse.demo.server.TestRequest;
 import io.servicecomb.cse.demo.server.User;
-import com.huawei.paas.cse.provider.pojo.RpcSchema;
+import io.servicecomb.provider.pojo.RpcSchema;
 
 @RpcSchema(schemaId = "server")
 public class TestImpl implements Test {

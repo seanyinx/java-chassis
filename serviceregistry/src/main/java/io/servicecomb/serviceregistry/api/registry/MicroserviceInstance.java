@@ -22,8 +22,6 @@ import java.util.List;
 import java.util.Map;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import com.huawei.paas.cse.serviceregistry.api.registry.HealthCheck;
-import com.huawei.paas.cse.serviceregistry.api.registry.MicroserviceInstanceStatus;
 
 /**
  * Created by   on 2016/12/5.

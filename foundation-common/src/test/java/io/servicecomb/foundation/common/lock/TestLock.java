@@ -29,7 +29,7 @@ public class TestLock {
     public void testLockException() {
         LockException oLockException = new LockException();
         Assert.assertEquals("LockException",
-                oLockException.getClass().getName());
+                oLockException.getClass().getSimpleName());
 
         oLockException = new LockException("error");
         Assert.assertEquals("error", oLockException.getMessage());

@@ -22,7 +22,7 @@ import org.junit.Test;
 import org.mockito.Mockito;
 
 import com.huawei.paas.cse.serviceregistry.api.MicroserviceKey;
-import com.huawei.paas.cse.serviceregistry.api.registry.MicroserviceInstance;
+import io.servicecomb.serviceregistry.api.registry.MicroserviceInstance;
 import com.huawei.paas.cse.serviceregistry.api.registry.WatchAction;
 
 import org.junit.Assert;

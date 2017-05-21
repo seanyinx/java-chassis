@@ -25,7 +25,7 @@ import org.slf4j.LoggerFactory;
 import com.huawei.paas.cse.serviceregistry.api.registry.HealthCheck;
 import com.huawei.paas.cse.serviceregistry.api.registry.HealthCheckMode;
 import com.huawei.paas.cse.serviceregistry.api.registry.Microservice;
-import com.huawei.paas.cse.serviceregistry.api.registry.MicroserviceInstance;
+import io.servicecomb.serviceregistry.api.registry.MicroserviceInstance;
 import com.huawei.paas.cse.serviceregistry.api.response.HeartbeatResponse;
 import com.huawei.paas.cse.serviceregistry.client.http.ServiceRegistryClientImpl;
 import com.huawei.paas.foundation.common.utils.BeanUtils;

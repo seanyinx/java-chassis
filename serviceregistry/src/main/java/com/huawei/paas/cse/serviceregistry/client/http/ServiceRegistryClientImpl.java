@@ -39,7 +39,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.huawei.paas.cse.serviceregistry.api.registry.Microservice;
-import com.huawei.paas.cse.serviceregistry.api.registry.MicroserviceInstance;
+import io.servicecomb.serviceregistry.api.registry.MicroserviceInstance;
 import com.huawei.paas.cse.serviceregistry.api.request.CreateSchemaRequest;
 import com.huawei.paas.cse.serviceregistry.api.request.CreateServiceRequest;
 import com.huawei.paas.cse.serviceregistry.api.request.RegisterInstanceRequest;

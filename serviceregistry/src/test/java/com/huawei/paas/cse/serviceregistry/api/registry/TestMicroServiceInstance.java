@@ -16,6 +16,7 @@
 
 package com.huawei.paas.cse.serviceregistry.api.registry;
 
+import io.servicecomb.serviceregistry.api.registry.MicroserviceInstance;
 import org.junit.Assert;
 
 import java.util.ArrayList;

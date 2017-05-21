@@ -17,7 +17,7 @@
 package com.huawei.paas.cse.serviceregistry.api.response;
 
 import com.huawei.paas.cse.serviceregistry.api.MicroserviceKey;
-import com.huawei.paas.cse.serviceregistry.api.registry.MicroserviceInstance;
+import io.servicecomb.serviceregistry.api.registry.MicroserviceInstance;
 import com.huawei.paas.cse.serviceregistry.api.registry.WatchAction;
 
 /**

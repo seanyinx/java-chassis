@@ -16,7 +16,7 @@
 
 package com.huawei.paas.cse.serviceregistry.cache;
 
-import com.huawei.paas.cse.serviceregistry.api.registry.MicroserviceInstance;
+import io.servicecomb.serviceregistry.api.registry.MicroserviceInstance;
 
 public class CacheEndpoint {
     // 所属的服务实例

@@ -29,7 +29,7 @@ import org.slf4j.LoggerFactory;
 
 import com.huawei.paas.config.YAMLUtil;
 import com.huawei.paas.cse.serviceregistry.api.registry.Microservice;
-import com.huawei.paas.cse.serviceregistry.api.registry.MicroserviceInstance;
+import io.servicecomb.serviceregistry.api.registry.MicroserviceInstance;
 import com.huawei.paas.cse.serviceregistry.api.response.HeartbeatResponse;
 import com.huawei.paas.cse.serviceregistry.api.response.MicroserviceInstanceChangedEvent;
 import com.huawei.paas.foundation.vertx.AsyncResultCallback;

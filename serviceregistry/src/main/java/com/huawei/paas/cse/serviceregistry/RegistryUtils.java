@@ -32,7 +32,7 @@ import com.huawei.paas.cse.serviceregistry.api.registry.BasePath;
 import com.huawei.paas.cse.serviceregistry.api.registry.HealthCheck;
 import com.huawei.paas.cse.serviceregistry.api.registry.HealthCheckMode;
 import com.huawei.paas.cse.serviceregistry.api.registry.Microservice;
-import com.huawei.paas.cse.serviceregistry.api.registry.MicroserviceInstance;
+import io.servicecomb.serviceregistry.api.registry.MicroserviceInstance;
 import com.huawei.paas.cse.serviceregistry.api.response.HeartbeatResponse;
 import com.huawei.paas.cse.serviceregistry.api.response.MicroserviceInstanceChangedEvent;
 import com.huawei.paas.cse.serviceregistry.cache.CacheRegistryListener;

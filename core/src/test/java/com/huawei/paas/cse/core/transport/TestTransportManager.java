@@ -25,7 +25,7 @@ import org.junit.Test;
 import com.huawei.paas.cse.core.Endpoint;
 import com.huawei.paas.cse.core.Transport;
 import com.huawei.paas.cse.serviceregistry.RegistryUtils;
-import com.huawei.paas.cse.serviceregistry.api.registry.MicroserviceInstance;
+import io.servicecomb.serviceregistry.api.registry.MicroserviceInstance;
 
 import mockit.Deencapsulation;
 import mockit.Expectations;

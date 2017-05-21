@@ -23,7 +23,7 @@ import org.mockito.Mockito;
 import com.huawei.paas.cse.serviceregistry.RegistryUtils;
 import com.huawei.paas.cse.serviceregistry.api.MicroserviceKey;
 import com.huawei.paas.cse.serviceregistry.api.registry.Microservice;
-import com.huawei.paas.cse.serviceregistry.api.registry.MicroserviceInstance;
+import io.servicecomb.serviceregistry.api.registry.MicroserviceInstance;
 import com.huawei.paas.cse.serviceregistry.api.registry.WatchAction;
 import com.huawei.paas.cse.serviceregistry.api.response.MicroserviceInstanceChangedEvent;
 

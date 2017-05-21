@@ -16,7 +16,7 @@
 
 package com.huawei.paas.cse.serviceregistry.api.request;
 
-import com.huawei.paas.cse.serviceregistry.api.registry.MicroserviceInstance;
+import io.servicecomb.serviceregistry.api.registry.MicroserviceInstance;
 
 /**
  * Created by   on 2016/12/6.

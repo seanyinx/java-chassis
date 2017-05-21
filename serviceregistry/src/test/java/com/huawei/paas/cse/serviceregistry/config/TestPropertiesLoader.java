@@ -29,7 +29,7 @@ import com.huawei.paas.config.archaius.scheduler.NeverStartPollingScheduler;
 import com.huawei.paas.config.archaius.sources.YAMLConfigurationSource;
 import com.huawei.paas.cse.serviceregistry.RegistryUtils;
 import com.huawei.paas.cse.serviceregistry.api.registry.Microservice;
-import com.huawei.paas.cse.serviceregistry.api.registry.MicroserviceInstance;
+import io.servicecomb.serviceregistry.api.registry.MicroserviceInstance;
 import com.netflix.config.ConcurrentCompositeConfiguration;
 import com.netflix.config.ConfigurationManager;
 import com.netflix.config.DynamicConfiguration;

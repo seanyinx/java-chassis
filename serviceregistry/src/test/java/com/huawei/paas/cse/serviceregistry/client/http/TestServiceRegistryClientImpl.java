@@ -27,7 +27,7 @@ import org.mockito.Mockito;
 import com.huawei.paas.cse.serviceregistry.RegistryThread;
 import com.huawei.paas.cse.serviceregistry.RegistryUtils;
 import com.huawei.paas.cse.serviceregistry.api.registry.Microservice;
-import com.huawei.paas.cse.serviceregistry.api.registry.MicroserviceInstance;
+import io.servicecomb.serviceregistry.api.registry.MicroserviceInstance;
 import com.huawei.paas.cse.serviceregistry.client.RegistryClientFactory;
 import com.huawei.paas.cse.serviceregistry.client.ClientException;
 import com.huawei.paas.cse.serviceregistry.config.ServiceRegistryConfig;

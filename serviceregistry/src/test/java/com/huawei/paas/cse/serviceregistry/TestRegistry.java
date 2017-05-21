@@ -29,7 +29,7 @@ import org.junit.Test;
 import com.huawei.paas.cse.serviceregistry.api.registry.HealthCheck;
 import com.huawei.paas.cse.serviceregistry.api.registry.HealthCheckMode;
 import com.huawei.paas.cse.serviceregistry.api.registry.Microservice;
-import com.huawei.paas.cse.serviceregistry.api.registry.MicroserviceInstance;
+import io.servicecomb.serviceregistry.api.registry.MicroserviceInstance;
 import com.huawei.paas.cse.serviceregistry.api.registry.MicroserviceInstanceStatus;
 import com.huawei.paas.cse.serviceregistry.api.registry.MicroserviceStatus;
 import com.huawei.paas.cse.serviceregistry.api.response.HeartbeatResponse;

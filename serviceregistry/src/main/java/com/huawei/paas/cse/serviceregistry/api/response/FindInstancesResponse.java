@@ -18,7 +18,7 @@ package com.huawei.paas.cse.serviceregistry.api.response;
 
 import java.util.List;
 
-import com.huawei.paas.cse.serviceregistry.api.registry.MicroserviceInstance;
+import io.servicecomb.serviceregistry.api.registry.MicroserviceInstance;
 
 /**
  * Created by   on 2016/12/8.

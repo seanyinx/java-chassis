@@ -33,7 +33,7 @@ import org.springframework.context.ApplicationContext;
 
 import com.huawei.paas.cse.serviceregistry.RegistryUtils;
 import com.huawei.paas.cse.serviceregistry.api.registry.Microservice;
-import com.huawei.paas.cse.swagger.generator.core.unittest.UnitTestSwaggerUtils;
+import io.servicecomb.swagger.generator.core.unittest.UnitTestSwaggerUtils;
 import com.huawei.paas.foundation.common.utils.BeanUtils;
 
 import io.swagger.models.Swagger;

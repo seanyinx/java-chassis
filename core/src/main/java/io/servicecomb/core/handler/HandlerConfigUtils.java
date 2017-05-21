@@ -21,8 +21,8 @@ import java.util.List;
 import io.servicecomb.core.handler.config.Config;
 import org.springframework.core.io.Resource;
 
-import com.huawei.paas.foundation.common.config.PaaSResourceUtils;
-import com.huawei.paas.foundation.common.config.impl.XmlLoaderUtils;
+import io.servicecomb.foundation.common.config.PaaSResourceUtils;
+import io.servicecomb.foundation.common.config.impl.XmlLoaderUtils;
 
 public final class HandlerConfigUtils {
     private HandlerConfigUtils() {

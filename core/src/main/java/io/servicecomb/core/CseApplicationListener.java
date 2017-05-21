@@ -37,8 +37,8 @@ import io.servicecomb.core.BootListener.EventType;
 import io.servicecomb.core.handler.HandlerConfigUtils;
 import io.servicecomb.core.provider.consumer.ConsumerProviderManager;
 import com.huawei.paas.cse.serviceregistry.RegistryUtils;
-import com.huawei.paas.foundation.common.utils.BeanUtils;
-import com.huawei.paas.foundation.common.utils.FortifyUtils;
+import io.servicecomb.foundation.common.utils.BeanUtils;
+import io.servicecomb.foundation.common.utils.FortifyUtils;
 
 public class CseApplicationListener implements ApplicationListener<ApplicationEvent> {
     private static final Logger LOGGER = LoggerFactory.getLogger(CseApplicationListener.class);

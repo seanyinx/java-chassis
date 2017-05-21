@@ -31,8 +31,8 @@ import com.huawei.paas.cse.core.CseContext;
 import io.servicecomb.cse.demo.DemoConst;
 import io.servicecomb.cse.demo.controller.Person;
 import com.huawei.paas.cse.provider.springmvc.reference.RestTemplateBuilder;
-import com.huawei.paas.foundation.common.utils.BeanUtils;
-import com.huawei.paas.foundation.common.utils.Log4jUtils;
+import io.servicecomb.foundation.common.utils.BeanUtils;
+import io.servicecomb.foundation.common.utils.Log4jUtils;
 
 /**
  * <一句话功能简述>

@@ -31,7 +31,7 @@ import org.mockito.Mockito;
 import io.servicecomb.core.definition.OperationMeta;
 import io.servicecomb.core.provider.consumer.ConsumerProviderManager;
 import io.servicecomb.core.provider.consumer.InvokerUtils;
-import com.huawei.paas.foundation.common.RegisterManager;
+import io.servicecomb.foundation.common.RegisterManager;
 
 public class TestConsumer {
 
